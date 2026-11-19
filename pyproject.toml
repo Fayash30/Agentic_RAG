@@ -1,0 +1,26 @@
+[project]
+name = "agentic-rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Fayash30", email = "mohamedfayash35@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "langchain>=1.5.2",
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.8.3",
+    "pymupdf>=2.1",
+    "pypdf>=7.1.1",
+    "python-dotenv>=1.2.4",
+    "tqdm>=4.70.1",
+]
+
+[project.scripts]
+agentic-rag = "agentic_rag:main"
+
+[build-system]
+requires = ["uv_build>=0.13.8,<0.14.0"]
+build-backend = "uv_build"

@@ -1,0 +1,1 @@
+Data Folder should be gitignored, since it's learning purpose and the data's are not sensitive, I have included here.
