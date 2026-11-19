@@ -6,3 +6,7 @@ pymupdf
 python-dotenv
 ipykernel
 tqdm
+langchain-text-splitters
+sentence-transformers
+faiss-cpu
+chromadb
