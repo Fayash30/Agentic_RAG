@@ -12,3 +12,4 @@ faiss-cpu
 chromadb
 langchain-groq
 langchain-google-genai
+docx2txt
